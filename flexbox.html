@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            font-weight: 200px;
+        }
+        h3{
+            font-weight: 400px;
+        }
+        .container{
+            display: flex;
+            height: 400px;
+
+            /* align-items: strech; */
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            /* align-items: center; */
+
+            /* flex-direction: row; */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+
+            margin-right: -10px;
+
+            
+
+
+        }
+        .container div{
+            background-color: aqua;
+            border: 1px solid red;
+            /* width: 20%; */
+            /* flex-basis: 20%; */
+            margin-right: 30px;
+        }
+        .item1{
+            /* flex:1; */
+            /* order: 3; */
+            
+        }
+        .item2{
+            /* flex:2; */
+            /* order: 2; */
+            
+        }
+        .item3{
+            /* flex:2; */
+            /* order: 1; */
+            
+        }
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <div class="container">
+
+         <div class="item1">
+             <h3> My card 1</h3>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, obcaecati rerum laudantium velit facilis repellendus accusantium, temporibus qui ipsam architecto quis quas voluptatibus distinctio similique officia nostrum sequi? Minima, saepe.</p>
+         </div>
+
+         <div class="item2">
+            <h3> My card 2</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, obcaecati rerum laudantium velit facilis repellendus accusantium, temporibus qui ipsam architecto quis quas voluptatibus distinctio similique officia nostrum sequi? Minima, saepe.</p>
+         </div>
+
+         <div class="item3">
+            <h3> My card 3</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, obcaecati rerum laudantium velit facilis repellendus accusantium, temporibus qui ipsam architecto quis quas voluptatibus distinctio similique officia nostrum sequi? Minima, saepe.</p>
+         </div>
+
+
+    </div>
+</body>
+</html>
